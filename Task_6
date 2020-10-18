@@ -1,0 +1,5 @@
+def int_func(text):
+    print(text.title())
+
+a = input("Введите слово из маленьких латинских букв: ")
+int_func(a)
