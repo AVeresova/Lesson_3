@@ -1,0 +1,6 @@
+def func(name, surname, year, city, email, phone):
+    print(
+        f"Данные о пользователе: {surname} {name}, год рождения {year}, город проживания: {city}, электронная почта {email}, номер телефона {phone}")
+
+
+func(name="Иван", surname="Иванов", year="1980", city="Москва", email="xx@mail.ru", phone=9999999)
