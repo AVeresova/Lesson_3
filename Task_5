@@ -1,0 +1,16 @@
+def my_func():
+    res = 0
+    while True:
+        numbers = input('Введите строку чисел, разделенных пробелом: ').split()
+        for i in numbers:
+            try:
+                if i == '*':
+                    print({res})
+                    return
+                else:
+                    res += int(i)
+            except ValueError:
+                print('Введите числа, разделенные пробелом: ')
+        print({res})
+
+my_func()
