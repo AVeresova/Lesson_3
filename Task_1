@@ -1,0 +1,12 @@
+a = int(input("Введите чиcло №1: "))
+b = int(input("Введите чиcло №2: "))
+
+
+def div(a1, b1):
+    try:
+        return round(a1 / b1, 2)
+    except ZeroDivisionError:
+        return "На ноль делить нельзя!"
+
+
+print(div(a, b))
